@@ -1,3 +1,5 @@
+![Hell’s Committee: a live party game for 3–8 players where you write punishments and vote for your favorites.](public/social/readme-header.png)
+
 # Hell’s Committee
 
 A live party game for 3–8 players. One person hosts on a TV, and everyone else joins on a phone. Players invent punishments for three sinners, vote for their favorites, and see the final scoreboard.
