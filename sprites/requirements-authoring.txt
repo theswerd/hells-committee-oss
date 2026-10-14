@@ -1,0 +1,5 @@
+numpy
+Pillow
+scipy
+vtracer==0.6.15
+playwright

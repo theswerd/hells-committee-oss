@@ -1,0 +1,259 @@
+{
+  "state": "idle concept study",
+  "canvas": [
+    512,
+    512
+  ],
+  "source_atlases": [
+    {
+      "group": "heavyweights",
+      "file": "sources/heavyweights.png",
+      "sha256": "28ea267df3c143fe314a2bc20439c546a689cfc942060e3909bc1c90e4f6ad97"
+    },
+    {
+      "group": "strange",
+      "file": "sources/strange.png",
+      "sha256": "fade8406623d30f368cb0b8dd7dbe869e124e312e532edc990a0d737bae63ea9"
+    },
+    {
+      "group": "oddities",
+      "file": "sources/oddities.png",
+      "sha256": "9f1828d0826715026e918a1a0b1798aa5746bd74e51281b5a681a3ace5ef5ad8"
+    },
+    {
+      "group": "scruffy",
+      "file": "sources/scruffy.png",
+      "sha256": "67b3712bac3440edddbcda0524b7b52c1d0ecde883d92ad36529577b228163ec"
+    }
+  ],
+  "characters": [
+    {
+      "id": "norm",
+      "name": "Norm Goyle",
+      "state": "idle",
+      "group": "heavyweights",
+      "paths": 1020,
+      "source_bounds": [
+        64,
+        247,
+        485,
+        836
+      ],
+      "bounds": [
+        95.18,
+        29.0,
+        416.82,
+        479
+      ]
+    },
+    {
+      "id": "barry",
+      "name": "Barry Burden",
+      "state": "idle",
+      "group": "heavyweights",
+      "paths": 1029,
+      "source_bounds": [
+        572,
+        175,
+        990,
+        838
+      ],
+      "bounds": [
+        114.14,
+        29.0,
+        397.86,
+        479
+      ]
+    },
+    {
+      "id": "gus",
+      "name": "Gus Grumble",
+      "state": "idle",
+      "group": "heavyweights",
+      "paths": 847,
+      "source_bounds": [
+        1063,
+        256,
+        1482,
+        837
+      ],
+      "bounds": [
+        93.74,
+        29.0,
+        418.26,
+        479
+      ]
+    },
+    {
+      "id": "slugworth",
+      "name": "Slugworth",
+      "state": "idle",
+      "group": "strange",
+      "paths": 1742,
+      "source_bounds": [
+        10,
+        120,
+        564,
+        876
+      ],
+      "bounds": [
+        91.12,
+        29.0,
+        420.88,
+        479
+      ]
+    },
+    {
+      "id": "ned",
+      "name": "Ned Kettle",
+      "state": "idle",
+      "group": "strange",
+      "paths": 2754,
+      "source_bounds": [
+        534,
+        234,
+        1055,
+        883
+      ],
+      "bounds": [
+        75.38,
+        29.0,
+        436.62,
+        479
+      ]
+    },
+    {
+      "id": "sue",
+      "name": "Sue Nami",
+      "state": "idle",
+      "group": "strange",
+      "paths": 1996,
+      "source_bounds": [
+        1014,
+        197,
+        1531,
+        892
+      ],
+      "bounds": [
+        88.63,
+        29.0,
+        423.37,
+        479
+      ]
+    },
+    {
+      "id": "fergus",
+      "name": "Fergus",
+      "state": "idle",
+      "group": "oddities",
+      "paths": 1361,
+      "source_bounds": [
+        18,
+        269,
+        657,
+        934
+      ],
+      "bounds": [
+        39.8,
+        29.0,
+        472.2,
+        479
+      ]
+    },
+    {
+      "id": "connie",
+      "name": "Connie",
+      "state": "idle",
+      "group": "oddities",
+      "paths": 1304,
+      "source_bounds": [
+        640,
+        197,
+        1170,
+        918
+      ],
+      "bounds": [
+        90.6,
+        29.0,
+        421.4,
+        479
+      ]
+    },
+    {
+      "id": "winnie",
+      "name": "Winnie Wail",
+      "state": "idle",
+      "group": "oddities",
+      "paths": 644,
+      "source_bounds": [
+        1144,
+        59,
+        1517,
+        941
+      ],
+      "bounds": [
+        160.85,
+        29.0,
+        351.15,
+        479
+      ]
+    },
+    {
+      "id": "edgar",
+      "name": "Edgar",
+      "state": "idle",
+      "group": "scruffy",
+      "paths": 2893,
+      "source_bounds": [
+        8,
+        88,
+        626,
+        926
+      ],
+      "bounds": [
+        90.07,
+        29.0,
+        421.93,
+        479
+      ]
+    },
+    {
+      "id": "dot",
+      "name": "Dot",
+      "state": "idle",
+      "group": "scruffy",
+      "paths": 1300,
+      "source_bounds": [
+        578,
+        295,
+        1027,
+        918
+      ],
+      "bounds": [
+        93.84,
+        29.0,
+        418.16,
+        479
+      ]
+    },
+    {
+      "id": "milton",
+      "name": "Milton",
+      "state": "idle",
+      "group": "scruffy",
+      "paths": 1620,
+      "source_bounds": [
+        1021,
+        393,
+        1530,
+        926
+      ],
+      "bounds": [
+        41.13,
+        29.0,
+        470.87,
+        479
+      ]
+    }
+  ]
+}

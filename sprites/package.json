@@ -1,0 +1,13 @@
+{
+  "name": "hells-committee-sprites",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic, layered SVG demon and human sprite generator.",
+  "scripts": {
+    "demo": "node cli.mjs demo",
+    "test": "node --test test/*.test.mjs",
+    "batch": "node cli.mjs batch"
+  },
+  "engines": { "node": ">=20" }
+}

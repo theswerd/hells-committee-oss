@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hell’s Committee · Character Department</title>
+<style>
+:root{--ink:#271334;--cream:#fff6df;--pink:#fa416b;--lilac:#b997ed;--lime:#d9ef57;--muted:#745d83}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:ui-rounded,"Trebuchet MS",Arial,sans-serif}button,input,select,textarea{font:inherit;color:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #6c42af;outline-offset:4px}header{background:var(--ink);color:var(--cream);padding:28px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-size:32px;font-weight:1000;letter-spacing:-1.5px;color:#ff72a5}.tag{font-size:12px;letter-spacing:2px;font-weight:800;color:var(--lime)}.badge{border:2px solid var(--pink);padding:9px 15px;border-radius:99px;color:#ffb9ce;font-size:12px;font-weight:800}main{max-width:1440px;margin:auto;padding:34px 40px}.intro{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:26px}h1{font-size:38px;letter-spacing:-1.5px;line-height:1.05;margin:0 0 12px}p{line-height:1.5;margin:0;color:var(--muted)}.workspace{display:grid;grid-template-columns:minmax(350px,1.05fr) minmax(370px,1fr);gap:28px}.panel{border:3px solid var(--ink);border-radius:24px;overflow:hidden;background:#fffdfa;box-shadow:7px 7px 0 #271334}.preview{background:#e7daf8;display:flex;align-items:center;justify-content:center;min-height:440px;position:relative;background-image:radial-gradient(#b699d5 1px,transparent 1px);background-size:22px 22px}.preview svg{width:100%;max-width:440px;height:auto;display:block}.case-tab{position:absolute;top:18px;left:18px;z-index:1;background:var(--lime);padding:7px 12px;border:2px solid var(--ink);border-radius:8px;font-size:11px;font-weight:900;letter-spacing:1px}.preview-info{padding:20px 22px;display:flex;justify-content:space-between;gap:18px;border-top:3px solid var(--ink);align-items:center}.preview-info h2{font-size:25px;margin:0 0 3px;letter-spacing:-.7px}.preview-info p{font-size:12px}.poses{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:16px 18px;border-top:2px solid var(--ink);background:#fbf3df}.pose-card{background:white;border:2px solid #ddcdeb;border-radius:12px;overflow:hidden;padding:4px;color:var(--muted);font-size:10px;font-weight:900;text-transform:uppercase}.pose-card.active{border-color:var(--pink);background:#ffe1e9}.pose-card svg{display:block;width:100%;height:auto}.controls{padding:22px}.tabs{display:flex;border:2px solid var(--ink);border-radius:12px;overflow:hidden;margin-bottom:20px}.tabs button{flex:1;background:white;border:0;padding:11px;font-weight:900}.tabs button.active{background:var(--ink);color:var(--cream)}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:flex;flex-direction:column;gap:6px}label{font-size:11px;font-weight:900;letter-spacing:.7px;text-transform:uppercase}.field select,.field input{width:100%;border:2px solid #ddcdeb;border-radius:10px;padding:10px;background:white;min-width:0}.field input[type=color]{height:42px;padding:4px}.span2{grid-column:1/-1}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.btn{border:2px solid var(--ink);border-radius:12px;padding:11px 16px;font-weight:900;background:var(--cream);box-shadow:2px 2px 0 var(--ink)}.btn.primary{background:var(--pink);color:white}.btn.lime{background:var(--lime)}.btn:active{transform:translate(2px,2px);box-shadow:none}.divider{height:2px;background:#eadff3;margin:22px 0}.status{font-size:12px;min-height:18px;margin-top:12px}.batch-section{margin-top:46px}.batch-head{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:18px}.batch-head h2{margin:0 0 4px;font-size:28px;letter-spacing:-1px}.variant-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}.variant{border:2px solid var(--ink);border-radius:16px;background:white;padding:10px 8px;box-shadow:3px 3px 0 #e0ccec;font-size:10px;text-transform:uppercase;font-weight:800}.variant:hover{background:#ffe1e9;transform:translateY(-2px)}.variant svg{display:block;width:100%;height:auto}.batch-actions{display:flex;gap:10px;flex-wrap:wrap}.count{width:72px;border:2px solid var(--ink);border-radius:10px;padding:10px;background:white}details{margin-top:32px;border:2px solid #ddcdeb;border-radius:14px;padding:16px;background:#fffdfa}summary{cursor:pointer;font-weight:800;font-size:14px}textarea{width:100%;height:230px;margin-top:14px;border:2px solid #ddcdeb;border-radius:10px;padding:12px;font-family:ui-monospace,monospace;font-size:12px;resize:vertical}footer{max-width:1440px;margin:auto;padding:10px 40px 32px;font-size:12px;color:var(--muted)}.hidden{display:none!important}@media(max-width:900px){main{padding:24px}.workspace{grid-template-columns:1fr}.variant-grid{grid-template-columns:repeat(4,1fr)}header{padding:20px 24px}.intro{display:block}.batch-head{display:block}.batch-actions{margin-top:15px}}@media(max-width:560px){.variant-grid{grid-template-columns:repeat(2,1fr)}.brand{font-size:25px}.badge{display:none}.field-grid{gap:12px}.preview{min-height:340px}h1{font-size:32px}}
+.workspace{align-items:start}.workspace>section:first-child{position:sticky;top:20px}@media(max-width:900px){.workspace>section:first-child{position:static}}
+</style>
+</head>
+<body>
+<header><div><div class="brand">HELL’S COMMITTEE</div><div class="tag">CHARACTER DEPARTMENT / EST. ETERNITY</div></div><div class="badge">MORE DEMONS. MORE PAPERWORK.</div></header>
+<main>
+<div class="intro"><div><h1>Staff the department.<br>Fill the case backlog.</h1><p>Build a demon or a sinner. Change their look, keep their identity, and give them a reaction.</p></div></div>
+<div class="workspace">
+<section class="panel" aria-label="Sprite preview"><div class="preview"><span class="case-tab">CHARACTER ON FILE</span><div id="sprite"></div></div><div class="preview-info"><div><h2 id="character-name">Mothmanager</h2><p id="character-detail"></p></div><button class="btn" id="save-svg">Save SVG</button></div><div class="poses" id="pose-gallery"></div></section>
+<section class="panel controls" aria-label="Character controls">
+<div class="tabs"><button id="demon-tab" class="active" aria-pressed="true">DEMON CLERK</button><button id="human-tab" aria-pressed="false">HUMAN SINNER</button></div>
+<div class="field-grid">
+<div class="field span2"><label for="preset">Start with a character</label><select id="preset"><option value="">Custom character</option></select></div>
+<div class="field"><label for="name">Name</label><input id="name" maxlength="64"></div><div class="field"><label for="seed">Variant seed</label><input id="seed"></div>
+<div class="field" data-kind="demon"><label for="species">Body family</label><select id="species"></select></div><div class="field"><label for="build">Build</label><select id="build"></select></div>
+<div class="field" data-kind="demon"><label for="color">Body color</label><input type="color" id="color"></div><div class="field"><label for="accent">Accent color</label><input type="color" id="accent"></div>
+<div class="field" data-kind="demon"><label for="horns">Horns</label><select id="horns"></select></div><div class="field" data-kind="demon"><label for="wings">Wings</label><select id="wings"></select></div>
+<div class="field" data-kind="demon"><label for="tail">Tail</label><select id="tail"></select></div>
+<div class="field" data-kind="human"><label for="skin">Skin tone</label><input type="color" id="skin"></div><div class="field" data-kind="human"><label for="hairStyle">Hair style</label><select id="hairStyle"></select></div>
+<div class="field" data-kind="human"><label for="hairColor">Hair color</label><input type="color" id="hairColor"></div><div class="field" data-kind="human"><label for="clothingColor">Clothing color</label><input type="color" id="clothingColor"></div>
+<div class="field" data-kind="human"><label for="pantsColor">Pants color</label><input type="color" id="pantsColor"></div><div class="field" data-kind="human"><label for="facialHair">Facial hair</label><select id="facialHair"></select></div>
+<div class="field"><label for="outfit">Outfit</label><select id="outfit"></select></div><div class="field"><label for="glasses">Glasses</label><select id="glasses"></select></div>
+<div class="field"><label for="prop">Office prop</label><select id="prop"></select></div><div class="field"><label for="expression">Expression</label><select id="expression"></select></div>
+</div>
+<div class="divider"></div>
+<div class="field-grid" aria-label="Scene and reaction controls">
+<div class="field"><label for="concept">Sprite concept</label><select id="concept"></select></div><div class="field"><label for="scene">Scene</label><select id="scene"></select></div>
+<div class="field"><label for="reaction">Reaction</label><select id="reaction"></select></div><div class="field"><label for="frame-time">Frame time / seconds</label><input id="frame-time" type="range" min="0" max="4.2" step=".025" value="0"></div>
+<div class="field"><label for="look-x">Look left / right</label><input id="look-x" type="range" min="-1" max="1" step=".1" value="0"></div><div class="field"><label for="look-y">Look up / down</label><input id="look-y" type="range" min="-1" max="1" step=".1" value="0"></div>
+</div><div class="actions"><button class="btn lime" id="play-motion" aria-pressed="false">Play motion</button><button class="btn" id="blink-toggle" aria-pressed="false">Blink</button><button class="btn" id="talk-toggle" aria-pressed="false">Talk</button></div>
+<div class="actions"><button class="btn primary" id="new-variant">New seeded variant</button><button class="btn" id="save-json">Save character JSON</button><button class="btn" id="save-png">Save transparent PNG</button></div><p class="status" id="status" role="status" aria-live="polite">Pick a character or change a feature.</p>
+</section>
+</div>
+<section class="batch-section"><div class="batch-head"><div><h2>There’s always another case.</h2><p id="batch-info">Generate a roster, then select anyone to customize them.</p></div><div class="batch-actions"><label for="count" class="hidden">Roster count</label><input class="count" id="count" type="number" value="24" min="1" max="120" aria-label="Roster count"><button class="btn lime" id="generate-roster">Generate roster</button><button class="btn" id="save-roster">Save roster JSON</button><button class="btn" id="save-sheet">Save sheet SVG</button></div></div><div id="variants" class="variant-grid"></div></section>
+<details><summary>Character definition / edit JSON</summary><textarea id="definition" spellcheck="false" aria-label="Character JSON"></textarea><div class="actions"><button class="btn" id="apply-json">Apply JSON</button></div></details>
+</main><footer>Every preview is drawn from code. SVG exports have transparent backgrounds. Poses reuse the same character definition.</footer>
+<script type="module">
+/* COMPILED_SOURCE */
+/* COMPILED_FACES_SOURCE */
+/* COMPILED_HAIR_SOURCE */
+/* FACIAL_DETAILS_SOURCE */
+/* VECTOR_SOURCE */
+/* ILLUSTRATED_SOURCE */
+/* SPRITE_SOURCE */
+/* DRIVER_SOURCE */
+/* SHEET_SOURCE */
+let current=PRESETS.mothmanager,pose='idle',mood=current.expression,roster=[];
+let reaction='idle',concept='sticker',scene='lineup',playing=false,currentTime=0,motionStart=0,forcedBlink=false,speaking=false;
+const gaze={x:0,y:0};
+const byId=id=>document.getElementById(id);
+const editable=['name','build','species','color','accent','horns','wings','tail','skin','hairStyle','hairColor','clothingColor','pantsColor','facialHair','outfit','glasses','prop'];
+const title=value=>value.replace(/-/g,' ').replace(/^./,c=>c.toUpperCase());
+for(const key of [...editable,'expression']) if(OPTIONS[key]) byId(key).replaceChildren(...OPTIONS[key].map(value=>{const o=document.createElement('option');o.value=value;o.textContent=title(value);return o;}));
+for(const [key,c] of Object.entries(PRESETS)){const o=document.createElement('option');o.value=key;o.textContent=c.name;byId('preset').append(o);}
+for(const [key,values] of Object.entries({concept:Object.keys(CONCEPTS),scene:SCENES,reaction:Object.keys(REACTIONS)}))byId(key).replaceChildren(...values.map(value=>{const option=document.createElement('option');option.value=value;option.textContent=key==='concept'?CONCEPTS[value].name:title(value);return option;}));
+function status(message){byId('status').textContent=message;}
+function drivenState(time=currentTime){return {reaction,time,concept,pose,expression:mood,gaze,blink:forcedBlink?1:undefined,speaking};}
+function viewSvg(time=currentTime){
+  const state=drivenState(time);
+  if(scene==='lineup')return renderDrivenSprite(current,{...state,idPrefix:'main-preview'});
+  const cast=scene==='committee'?[current,...Object.values(PRESETS).filter(c=>c.kind==='demon'&&c.id!==current.id)].slice(0,8):[current];
+  return renderScene(cast,{scene,concept,time,reaction,slots:cast.map((c,i)=>({state:i===0?state:{reaction:'idle'}}))});
+}
+function draw(){byId('sprite').innerHTML=viewSvg();}
+function refresh(){
+  draw();
+  byId('character-name').textContent=current.name;
+  byId('character-detail').textContent=`${title(current.archetype)} · ${title(reaction)} · vector pose library`;
+  byId('seed').value=current.seed;
+  for(const key of editable) byId(key).value=current[key];
+  const outfits=current.kind==='human'?['polo','suit','tracksuit','hoodie','shirt']:['tie','waistcoat','suit','shirt','none'];
+  byId('outfit').replaceChildren(...outfits.map(value=>{const o=document.createElement('option');o.value=value;o.textContent=title(value);return o;}));byId('outfit').value=current.outfit;
+  byId('expression').value=mood;
+  byId('concept').value=concept;byId('scene').value=scene;byId('reaction').value=reaction;
+  for(const kind of ['demon','human']){byId(kind+'-tab').classList.toggle('active',current.kind===kind);byId(kind+'-tab').setAttribute('aria-pressed',String(current.kind===kind));}
+  document.querySelectorAll('[data-kind]').forEach(e=>e.classList.toggle('hidden',e.dataset.kind!==current.kind));
+  // Illustrated profiles use their authored anatomy. Palette, identity, acting,
+  // placement and scene controls remain independent and programmatic.
+  for(const key of ['species','horns','wings','tail','hairStyle','facialHair','outfit','glasses','prop','pantsColor','concept','look-x','look-y','expression'])byId(key).closest('.field').classList.add('hidden');
+  byId('blink-toggle').classList.add('hidden');byId('talk-toggle').classList.add('hidden');
+  const actions=current.kind==='human'?['idle','talking','angry','embarrassed','celebrate','shocked','smug']:['idle','writing','stamping','voting','celebrate','shocked','sleepy','smug'];
+  byId('reaction').replaceChildren(...actions.map(value=>{const o=document.createElement('option');o.value=value;o.textContent=title(value);return o;}));byId('reaction').value=reaction;
+  const thumbnails=current.kind==='human'?['idle','talking','angry','shocked']:['idle','writing','stamping','celebrate'];
+  byId('pose-gallery').replaceChildren(...thumbnails.map(p=>{const b=document.createElement('button');b.className='pose-card'+(reaction===p?' active':'');b.innerHTML=renderDrivenSprite(current,{reaction:p,concept,size:128,idPrefix:'pose-'+p})+title(p);b.setAttribute('aria-label',`${p} pose`);b.setAttribute('aria-pressed',String(reaction===p));b.onclick=()=>{reaction=p;pose=REACTIONS[p].pose;mood=REACTIONS[p].expression??current.expression;refresh();};return b;}));
+  byId('definition').value=JSON.stringify(current,null,2);
+}
+function choose(c){current=c;pose='idle';reaction='idle';mood=c.expression;currentTime=0;byId('preset').value=Object.keys(PRESETS).find(k=>PRESETS[k].id===c.id)??'';refresh();}
+function download(name,content,type){const url=URL.createObjectURL(new Blob([content],{type}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status(`Saved ${name}`);}
+for(const key of editable) byId(key).addEventListener('change',()=>{try{current=createCharacter({...current,[key]:byId(key).value});byId('preset').value='';refresh();status('Character updated. Poses keep the same identity.');}catch(e){status(e.message);}});
+byId('expression').onchange=()=>{mood=byId('expression').value;refresh();};
+byId('preset').onchange=()=>{if(PRESETS[byId('preset').value])choose(PRESETS[byId('preset').value]);};
+byId('seed').onchange=()=>{choose(createCharacter({kind:current.kind,seed:byId('seed').value}));status('New identity from this seed.');};
+for(const kind of ['demon','human'])byId(kind+'-tab').onclick=()=>{choose(kind==='demon'?PRESETS.mothmanager:PRESETS.john);byId('count').value=24;generateBatch();};
+byId('new-variant').onclick=()=>{const words=new Uint32Array(2);crypto.getRandomValues(words);choose(createCharacter({kind:current.kind,seed:`${current.kind}-${Array.from(words,n=>n.toString(16)).join('')}`}));status('New seeded character. Save the JSON to keep this identity.');};
+byId('save-svg').onclick=()=>download(`${current.id}-${scene}-${reaction}-${concept}.svg`,viewSvg(),'image/svg+xml');
+byId('save-json').onclick=()=>download(`${current.id}.json`,JSON.stringify(current,null,2),'application/json');
+byId('save-png').onclick=async()=>{
+  const name=`${current.id}-${scene}-${reaction}-${concept}`;
+  const url=URL.createObjectURL(new Blob([viewSvg()],{type:'image/svg+xml'}));
+  try{const image=new Image();image.src=url;await image.decode();const canvas=document.createElement('canvas');canvas.width=scene==='lineup'?512:1280;canvas.height=scene==='lineup'?512:720;canvas.getContext('2d').drawImage(image,0,0);const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw new Error('PNG export failed.');download(`${name}.png`,blob,'image/png');}catch(error){status(error.message);}finally{URL.revokeObjectURL(url);}
+};
+function generateBatch(){
+  try{const count=Number(byId('count').value);if(!Number.isInteger(count)||count<1||count>120)throw new Error('Choose a count from 1 to 120.');
+    roster=generateRoster({kind:current.kind,seed:byId('seed').value,count});
+    byId('variants').replaceChildren(...roster.map((c,i)=>{const b=document.createElement('button');b.className='variant';b.innerHTML=renderSprite(c,{size:180,concept,idPrefix:`variant-${i}`})+title(c.archetype);b.setAttribute('aria-label',`Select variant ${i+1}`);b.onclick=()=>{choose(c);window.scrollTo({top:0,behavior:'smooth'});};return b;}));
+    byId('batch-info').textContent=`${count} ${current.kind==='demon'?'demons':'sinners'} · seed ${byId('seed').value} · select one to customize.`;status(`Generated ${count} variants.`);
+  }catch(e){status(e.message);}
+}
+byId('generate-roster').onclick=generateBatch;
+byId('save-roster').onclick=()=>download('committee-roster.json',JSON.stringify({version:VERSION,characters:roster},null,2),'application/json');
+byId('save-sheet').onclick=()=>download('committee-roster.svg',renderSheet(roster,{title:current.kind==='demon'?'Committee roster':'Sinner roster',concept}),'image/svg+xml');
+byId('apply-json').onclick=()=>{try{choose(createCharacter(JSON.parse(byId('definition').value)));status('Loaded character definition.');}catch(e){status(e.message);}};
+byId('concept').onchange=()=>{concept=byId('concept').value;refresh();generateBatch();};
+byId('scene').onchange=()=>{scene=byId('scene').value;refresh();};
+byId('reaction').onchange=()=>{reaction=byId('reaction').value;pose=REACTIONS[reaction].pose;mood=REACTIONS[reaction].expression??current.expression;currentTime=0;motionStart=performance.now();refresh();};
+byId('frame-time').oninput=()=>{playing=false;byId('play-motion').textContent='Play motion';byId('play-motion').setAttribute('aria-pressed','false');currentTime=Number(byId('frame-time').value);draw();};
+for(const axis of ['x','y'])byId('look-'+axis).oninput=()=>{gaze[axis]=Number(byId('look-'+axis).value);draw();};
+byId('play-motion').onclick=()=>{playing=!playing;motionStart=performance.now()-currentTime*1000;byId('play-motion').textContent=playing?'Pause motion':'Play motion';byId('play-motion').setAttribute('aria-pressed',String(playing));};
+byId('blink-toggle').onclick=()=>{forcedBlink=!forcedBlink;byId('blink-toggle').setAttribute('aria-pressed',String(forcedBlink));draw();};
+byId('talk-toggle').onclick=()=>{speaking=!speaking;byId('talk-toggle').setAttribute('aria-pressed',String(speaking));draw();};
+let lastFrame=0;
+function animate(now){if(playing&&now-lastFrame>1000/24){currentTime=(now-motionStart)/1000;byId('frame-time').value=currentTime%4.2;draw();lastFrame=now;}requestAnimationFrame(animate);}
+refresh();generateBatch();requestAnimationFrame(animate);
+</script>
+</body>
+</html>

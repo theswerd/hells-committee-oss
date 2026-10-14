@@ -1,0 +1,25 @@
+node_modules
+dist/
+.output/
+.tanstack/
+review/
+*.tar.gz
+__pycache__/
+*.py[cod]
+.local/
+.wrangler/
+.sites-runtime/
+
+# Optional recordings supplied by the local operator
+public/media/*
+!public/media/README.md
+wrangler.jsonc
+
+# Local credentials and Python environments
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+.venv/
+venv/

@@ -1,0 +1,11 @@
+.tools/
+__pycache__/
+art-sources/normalized/
+review/animation-frames/
+
+review/
+concepts/round-two/normalized/
+exports/**/*.png
+exports/**/*.webp
+concepts/round-two/exports/*.png
+concepts/round-two/exports/*.webp

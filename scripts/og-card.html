@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hell’s Committee social card</title>
+  <script>document.documentElement.dataset.card = new URLSearchParams(location.search).get('card') === 'join' ? 'join' : 'game'</script>
+  <style>
+    @font-face { font-family:Lilita; src:url('../node_modules/@fontsource/lilita-one/files/lilita-one-latin-400-normal.woff2') format('woff2'); }
+    @font-face { font-family:Barlow; src:url('../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-800-normal.woff2') format('woff2'); font-weight:800; }
+    @font-face { font-family:Space; src:url('../node_modules/@fontsource/space-mono/files/space-mono-latin-400-normal.woff2') format('woff2'); }
+    * { box-sizing:border-box; }
+    html, body { width:1200px; height:630px; margin:0; overflow:hidden; }
+    body { background:#28152f; }
+    .card { position:relative; width:1200px; height:630px; overflow:hidden; color:#fff2d2; background:url('../public/art/infernal-office.webp') center center/cover; }
+    .card::before { content:''; position:absolute; inset:0; background:linear-gradient(180deg,#210c23bd 0%,#210c2399 48%,#210c2320 100%); }
+    .card::after { content:''; position:absolute; inset:13px; border:3px solid #f3c77780; border-radius:14px; pointer-events:none; }
+    .logo { position:absolute; z-index:3; top:68px; left:50%; display:flex; align-items:center; gap:13px; width:max-content; transform:translateX(-50%) rotate(-2deg); filter:drop-shadow(0 9px 0 #1b0b22); }
+    .logo svg { width:143px; height:180px; flex:none; }
+    .logo-type { display:flex; flex-direction:column; font-family:Lilita,sans-serif; line-height:.82; letter-spacing:-3px; white-space:nowrap; }
+    .logo-type span { color:#ff4168; font-size:106px; -webkit-text-stroke:8px #28152f; paint-order:stroke fill; }
+    .logo-type strong { color:#fff2d2; font-size:90px; font-weight:400; -webkit-text-stroke:8px #28152f; paint-order:stroke fill; }
+    .tagline { position:absolute; z-index:4; top:297px; left:0; width:100%; margin:0; text-align:center; font:800 32px/1 Barlow,sans-serif; letter-spacing:2px; -webkit-text-stroke:3px #28152f; paint-order:stroke fill; }
+    .character { position:absolute; z-index:2; bottom:-35px; object-fit:contain; filter:drop-shadow(0 8px 0 #1a0b22); }
+    .gus { left:51px; width:276px; height:276px; transform:rotate(-7deg); }
+    .greg { left:357px; width:292px; height:292px; }
+    .bonejamin { right:33px; width:278px; height:278px; transform:rotate(7deg); }
+    .beelzebabs { right:328px; width:290px; height:290px; transform:rotate(-4deg); }
+    .join-ticket { display:none; position:absolute; z-index:3; top:316px; left:219px; width:762px; height:220px; padding:29px 35px; color:#28152f; background:#fff2d2; border:6px solid #28152f; border-radius:13px; box-shadow:8px 10px 0 #c99a65,12px 14px 0 #28152f; transform:rotate(-1deg); }
+    .join-ticket::before { content:''; position:absolute; inset:0; background-image:radial-gradient(#d6b38966 .8px,transparent 1px); background-size:9px 9px; pointer-events:none; }
+    .join-ticket small { position:relative; font:16px/1 Space,monospace; letter-spacing:2px; }
+    .join-ticket h1 { position:relative; margin:17px 0 10px; font:69px/1 Lilita,sans-serif; letter-spacing:-2px; }
+    .join-ticket p { position:relative; margin:0; font:800 26px/1 Barlow,sans-serif; letter-spacing:1px; }
+    html[data-card="join"] .logo { top:42px; transform:translateX(-50%) rotate(-2deg) scale(.75); transform-origin:top center; }
+    html[data-card="join"] .tagline, html[data-card="join"] .gus, html[data-card="join"] .beelzebabs { display:none; }
+    html[data-card="join"] .join-ticket { display:block; }
+    html[data-card="join"] .greg { left:23px; bottom:-26px; width:335px; height:335px; transform:rotate(-7deg); }
+    html[data-card="join"] .bonejamin { right:4px; bottom:-28px; width:331px; height:331px; transform:rotate(7deg); }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="logo" aria-label="Hell’s Committee">
+      <svg viewBox="0 0 80 104" aria-hidden="true"><path d="M42 4C24 32 34 27 19 34c2-16-7-18-7-18S-2 53 6 66c7 16 48 21 64-1 14-20-8-44-8-44s1 23-10 24C42 41 40 29 48 17Z" fill="#ff4262" stroke="#28152f" stroke-width="4" stroke-linejoin="round"/><path d="M38 43C16 43 11 62 14 74c2 10 9 13 13 15v10h27V89c10-4 13-12 12-21-2-15-12-25-28-25Z" fill="#fff2d2" stroke="#28152f" stroke-width="4"/><ellipse cx="29" cy="68" rx="7" ry="9" fill="#28152f"/><ellipse cx="50" cy="68" rx="7" ry="9" fill="#28152f"/><path d="m40 77-5 7h10Z" fill="#28152f"/><path d="M34 91v8m12-8v8" stroke="#28152f" stroke-width="3"/></svg>
+      <div class="logo-type"><span>HELL’S</span><strong>COMMITTEE</strong></div>
+    </div>
+    <p class="tagline">GREAT MINDS. TERRIBLE JUDGMENT.</p>
+    <img class="character gus" src="../public/art/gus-idle.webp" alt="">
+    <img class="character greg" src="../public/art/greg-idle.webp" alt="">
+    <img class="character beelzebabs" src="../public/art/beelzebabs-idle.webp" alt="">
+    <img class="character bonejamin" src="../public/art/bonejamin-idle.webp" alt="">
+    <div class="join-ticket"><small>YOUR SEAT IN THE BAD PLACE</small><h1>JOIN ON YOUR PHONE.</h1><p>CLAIM A DEMON. BRING YOUR WORST.</p></div>
+  </main>
+</body>
+</html>

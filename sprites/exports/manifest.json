@@ -1,0 +1,861 @@
+{
+  "version": "0.1.0",
+  "characters": [
+    {
+      "version": "0.1.0",
+      "id": "beelzebabs",
+      "name": "Beelzebabs",
+      "seed": "beelzebabs",
+      "kind": "demon",
+      "species": "bat",
+      "color": "#fa416b",
+      "accent": "#472153",
+      "skin": "#f9d4b5",
+      "hairColor": "#563529",
+      "clothingColor": "#fa416b",
+      "pantsColor": "#d9b68a",
+      "build": "regular",
+      "horns": "curved",
+      "wings": "bat",
+      "tail": "spade",
+      "glasses": "none",
+      "outfit": "tie",
+      "hairStyle": "curls",
+      "facialHair": "moustache",
+      "prop": "none",
+      "expression": "smile",
+      "archetype": "beelzebabs"
+    },
+    {
+      "version": "0.1.0",
+      "id": "mothmanager",
+      "name": "Mothmanager",
+      "seed": "mothmanager",
+      "kind": "demon",
+      "species": "moth",
+      "color": "#b997ed",
+      "accent": "#fa416b",
+      "skin": "#734630",
+      "hairColor": "#9b5635",
+      "clothingColor": "#fa416b",
+      "pantsColor": "#434052",
+      "build": "regular",
+      "horns": "none",
+      "wings": "moth",
+      "tail": "none",
+      "glasses": "cat-eye",
+      "outfit": "tie",
+      "hairStyle": "curls",
+      "facialHair": "moustache",
+      "prop": "clipboard",
+      "expression": "smug",
+      "archetype": "mothmanager"
+    },
+    {
+      "version": "0.1.0",
+      "id": "litigator",
+      "name": "Lil’ Litigator",
+      "seed": "litigator",
+      "kind": "demon",
+      "species": "imp",
+      "color": "#f4d544",
+      "accent": "#fa416b",
+      "skin": "#b9774e",
+      "hairColor": "#a6a0b2",
+      "clothingColor": "#fa416b",
+      "pantsColor": "#434052",
+      "build": "regular",
+      "horns": "short",
+      "wings": "none",
+      "tail": "spade",
+      "glasses": "round",
+      "outfit": "waistcoat",
+      "hairStyle": "quiff",
+      "facialHair": "none",
+      "prop": "none",
+      "expression": "smug",
+      "archetype": "litigator"
+    },
+    {
+      "version": "0.1.0",
+      "id": "greg",
+      "name": "Greg",
+      "seed": "greg",
+      "kind": "demon",
+      "species": "blob",
+      "color": "#9de1b5",
+      "accent": "#b997ed",
+      "skin": "#533527",
+      "hairColor": "#563529",
+      "clothingColor": "#fa416b",
+      "pantsColor": "#d9b68a",
+      "build": "regular",
+      "horns": "short",
+      "wings": "none",
+      "tail": "none",
+      "glasses": "none",
+      "outfit": "none",
+      "hairStyle": "balding",
+      "facialHair": "none",
+      "prop": "mug",
+      "expression": "sleepy",
+      "archetype": "greg"
+    },
+    {
+      "version": "0.1.0",
+      "id": "velvet",
+      "name": "Velvet Vice",
+      "seed": "velvet",
+      "kind": "demon",
+      "species": "goat",
+      "color": "#7695ef",
+      "accent": "#ae2a73",
+      "skin": "#734630",
+      "hairColor": "#a6a0b2",
+      "clothingColor": "#74b7f0",
+      "pantsColor": "#434052",
+      "build": "regular",
+      "horns": "spiral",
+      "wings": "none",
+      "tail": "spade",
+      "glasses": "none",
+      "outfit": "suit",
+      "hairStyle": "bob",
+      "facialHair": "none",
+      "prop": "clipboard",
+      "expression": "smug",
+      "archetype": "velvet"
+    },
+    {
+      "version": "0.1.0",
+      "id": "bonejamin",
+      "name": "Bonejamin",
+      "seed": "bonejamin",
+      "kind": "demon",
+      "species": "skeleton",
+      "color": "#da5a19",
+      "accent": "#582047",
+      "skin": "#d49368",
+      "hairColor": "#2e2330",
+      "clothingColor": "#fa416b",
+      "pantsColor": "#434052",
+      "build": "regular",
+      "horns": "curved",
+      "wings": "none",
+      "tail": "none",
+      "glasses": "none",
+      "outfit": "suit",
+      "hairStyle": "spiky",
+      "facialHair": "none",
+      "prop": "none",
+      "expression": "smile",
+      "archetype": "bonejamin"
+    },
+    {
+      "version": "0.1.0",
+      "id": "cerberus",
+      "name": "Cerberus",
+      "seed": "cerberus",
+      "kind": "demon",
+      "species": "hound",
+      "color": "#23538c",
+      "accent": "#207e7c",
+      "skin": "#96593e",
+      "hairColor": "#9b5635",
+      "clothingColor": "#fa416b",
+      "pantsColor": "#645278",
+      "build": "regular",
+      "horns": "short",
+      "wings": "none",
+      "tail": "spade",
+      "glasses": "none",
+      "outfit": "waistcoat",
+      "hairStyle": "balding",
+      "facialHair": "none",
+      "prop": "clipboard",
+      "expression": "smile",
+      "archetype": "cerberus"
+    },
+    {
+      "version": "0.1.0",
+      "id": "dolly",
+      "name": "Dolly Doom",
+      "seed": "dolly",
+      "kind": "demon",
+      "species": "cyclops",
+      "color": "#e649a0",
+      "accent": "#512552",
+      "skin": "#edb38b",
+      "hairColor": "#ed628b",
+      "clothingColor": "#fa416b",
+      "pantsColor": "#645278",
+      "build": "regular",
+      "horns": "short",
+      "wings": "none",
+      "tail": "spade",
+      "glasses": "none",
+      "outfit": "shirt",
+      "hairStyle": "quiff",
+      "facialHair": "none",
+      "prop": "clipboard",
+      "expression": "smug",
+      "archetype": "dolly"
+    },
+    {
+      "version": "0.1.0",
+      "id": "norm",
+      "name": "Norm Goyle",
+      "seed": "norm",
+      "kind": "demon",
+      "species": "gargoyle",
+      "color": "#99988f",
+      "accent": "#ed6928",
+      "skin": "#734630",
+      "hairColor": "#e5b557",
+      "clothingColor": "#74b7f0",
+      "pantsColor": "#434052",
+      "build": "regular",
+      "horns": "short",
+      "wings": "bat",
+      "tail": "none",
+      "glasses": "none",
+      "outfit": "tie",
+      "hairStyle": "bob",
+      "facialHair": "none",
+      "prop": "mug",
+      "expression": "sleepy",
+      "archetype": "norm"
+    },
+    {
+      "version": "0.1.0",
+      "id": "gus",
+      "name": "Gus Grumble",
+      "seed": "gus",
+      "kind": "demon",
+      "species": "walrus",
+      "color": "#df6d40",
+      "accent": "#742039",
+      "skin": "#b9774e",
+      "hairColor": "#563529",
+      "clothingColor": "#9de1b5",
+      "pantsColor": "#d9b68a",
+      "build": "regular",
+      "horns": "curved",
+      "wings": "none",
+      "tail": "none",
+      "glasses": "none",
+      "outfit": "waistcoat",
+      "hairStyle": "braids",
+      "facialHair": "moustache",
+      "prop": "stamp",
+      "expression": "sleepy",
+      "archetype": "gus"
+    },
+    {
+      "version": "0.1.0",
+      "id": "dot",
+      "name": "Dot",
+      "seed": "dot",
+      "kind": "demon",
+      "species": "bat",
+      "color": "#dd197d",
+      "accent": "#793951",
+      "skin": "#b9774e",
+      "hairColor": "#ed628b",
+      "clothingColor": "#9de1b5",
+      "pantsColor": "#645278",
+      "build": "regular",
+      "horns": "short",
+      "wings": "bat",
+      "tail": "none",
+      "glasses": "square",
+      "outfit": "shirt",
+      "hairStyle": "spiky",
+      "facialHair": "none",
+      "prop": "clipboard",
+      "expression": "sleepy",
+      "archetype": "dot"
+    },
+    {
+      "version": "0.1.0",
+      "id": "john",
+      "name": "John",
+      "seed": "john",
+      "kind": "human",
+      "species": "imp",
+      "color": "#fa416b",
+      "accent": "#fa416b",
+      "skin": "#edb38b",
+      "hairColor": "#563529",
+      "clothingColor": "#588fea",
+      "pantsColor": "#d9b68a",
+      "build": "regular",
+      "horns": "curved",
+      "wings": "none",
+      "tail": "spade",
+      "glasses": "none",
+      "outfit": "polo",
+      "hairStyle": "quiff",
+      "facialHair": "none",
+      "prop": "none",
+      "expression": "smug",
+      "archetype": "john"
+    },
+    {
+      "version": "0.1.0",
+      "id": "maya",
+      "name": "Maya",
+      "seed": "maya",
+      "kind": "human",
+      "species": "moth",
+      "color": "#b997ed",
+      "accent": "#f4d544",
+      "skin": "#b9774e",
+      "hairColor": "#2e2330",
+      "clothingColor": "#b997ed",
+      "pantsColor": "#9169bd",
+      "build": "regular",
+      "horns": "none",
+      "wings": "moth",
+      "tail": "none",
+      "glasses": "none",
+      "outfit": "tracksuit",
+      "hairStyle": "curls",
+      "facialHair": "none",
+      "prop": "phone",
+      "expression": "smug",
+      "archetype": "maya"
+    },
+    {
+      "version": "0.1.0",
+      "id": "brad",
+      "name": "Brad",
+      "seed": "brad",
+      "kind": "human",
+      "species": "hound",
+      "color": "#d9ef57",
+      "accent": "#d9ef57",
+      "skin": "#f9d4b5",
+      "hairColor": "#e5b557",
+      "clothingColor": "#fa8062",
+      "pantsColor": "#645278",
+      "build": "regular",
+      "horns": "short",
+      "wings": "none",
+      "tail": "none",
+      "glasses": "none",
+      "outfit": "suit",
+      "hairStyle": "balding",
+      "facialHair": "none",
+      "prop": "clipboard",
+      "expression": "smug",
+      "archetype": "brad"
+    }
+  ],
+  "sprites": [
+    {
+      "file": "illustrated/beelzebabs-idle.svg",
+      "characterId": "beelzebabs",
+      "reaction": "idle",
+      "archetype": "beelzebabs"
+    },
+    {
+      "file": "illustrated/beelzebabs-writing.svg",
+      "characterId": "beelzebabs",
+      "reaction": "writing",
+      "archetype": "beelzebabs"
+    },
+    {
+      "file": "illustrated/beelzebabs-stamping.svg",
+      "characterId": "beelzebabs",
+      "reaction": "stamping",
+      "archetype": "beelzebabs"
+    },
+    {
+      "file": "illustrated/beelzebabs-voting.svg",
+      "characterId": "beelzebabs",
+      "reaction": "voting",
+      "archetype": "beelzebabs"
+    },
+    {
+      "file": "illustrated/beelzebabs-celebrate.svg",
+      "characterId": "beelzebabs",
+      "reaction": "celebrate",
+      "archetype": "beelzebabs"
+    },
+    {
+      "file": "illustrated/beelzebabs-shocked.svg",
+      "characterId": "beelzebabs",
+      "reaction": "shocked",
+      "archetype": "beelzebabs"
+    },
+    {
+      "file": "illustrated/mothmanager-idle.svg",
+      "characterId": "mothmanager",
+      "reaction": "idle",
+      "archetype": "mothmanager"
+    },
+    {
+      "file": "illustrated/mothmanager-writing.svg",
+      "characterId": "mothmanager",
+      "reaction": "writing",
+      "archetype": "mothmanager"
+    },
+    {
+      "file": "illustrated/mothmanager-stamping.svg",
+      "characterId": "mothmanager",
+      "reaction": "stamping",
+      "archetype": "mothmanager"
+    },
+    {
+      "file": "illustrated/mothmanager-voting.svg",
+      "characterId": "mothmanager",
+      "reaction": "voting",
+      "archetype": "mothmanager"
+    },
+    {
+      "file": "illustrated/mothmanager-celebrate.svg",
+      "characterId": "mothmanager",
+      "reaction": "celebrate",
+      "archetype": "mothmanager"
+    },
+    {
+      "file": "illustrated/mothmanager-shocked.svg",
+      "characterId": "mothmanager",
+      "reaction": "shocked",
+      "archetype": "mothmanager"
+    },
+    {
+      "file": "illustrated/litigator-idle.svg",
+      "characterId": "litigator",
+      "reaction": "idle",
+      "archetype": "litigator"
+    },
+    {
+      "file": "illustrated/litigator-writing.svg",
+      "characterId": "litigator",
+      "reaction": "writing",
+      "archetype": "litigator"
+    },
+    {
+      "file": "illustrated/litigator-stamping.svg",
+      "characterId": "litigator",
+      "reaction": "stamping",
+      "archetype": "litigator"
+    },
+    {
+      "file": "illustrated/litigator-voting.svg",
+      "characterId": "litigator",
+      "reaction": "voting",
+      "archetype": "litigator"
+    },
+    {
+      "file": "illustrated/litigator-celebrate.svg",
+      "characterId": "litigator",
+      "reaction": "celebrate",
+      "archetype": "litigator"
+    },
+    {
+      "file": "illustrated/litigator-shocked.svg",
+      "characterId": "litigator",
+      "reaction": "shocked",
+      "archetype": "litigator"
+    },
+    {
+      "file": "illustrated/greg-idle.svg",
+      "characterId": "greg",
+      "reaction": "idle",
+      "archetype": "greg"
+    },
+    {
+      "file": "illustrated/greg-writing.svg",
+      "characterId": "greg",
+      "reaction": "writing",
+      "archetype": "greg"
+    },
+    {
+      "file": "illustrated/greg-stamping.svg",
+      "characterId": "greg",
+      "reaction": "stamping",
+      "archetype": "greg"
+    },
+    {
+      "file": "illustrated/greg-voting.svg",
+      "characterId": "greg",
+      "reaction": "voting",
+      "archetype": "greg"
+    },
+    {
+      "file": "illustrated/greg-celebrate.svg",
+      "characterId": "greg",
+      "reaction": "celebrate",
+      "archetype": "greg"
+    },
+    {
+      "file": "illustrated/greg-shocked.svg",
+      "characterId": "greg",
+      "reaction": "shocked",
+      "archetype": "greg"
+    },
+    {
+      "file": "illustrated/velvet-idle.svg",
+      "characterId": "velvet",
+      "reaction": "idle",
+      "archetype": "velvet"
+    },
+    {
+      "file": "illustrated/velvet-writing.svg",
+      "characterId": "velvet",
+      "reaction": "writing",
+      "archetype": "velvet"
+    },
+    {
+      "file": "illustrated/velvet-stamping.svg",
+      "characterId": "velvet",
+      "reaction": "stamping",
+      "archetype": "velvet"
+    },
+    {
+      "file": "illustrated/velvet-voting.svg",
+      "characterId": "velvet",
+      "reaction": "voting",
+      "archetype": "velvet"
+    },
+    {
+      "file": "illustrated/velvet-celebrate.svg",
+      "characterId": "velvet",
+      "reaction": "celebrate",
+      "archetype": "velvet"
+    },
+    {
+      "file": "illustrated/velvet-shocked.svg",
+      "characterId": "velvet",
+      "reaction": "shocked",
+      "archetype": "velvet"
+    },
+    {
+      "file": "illustrated/bonejamin-idle.svg",
+      "characterId": "bonejamin",
+      "reaction": "idle",
+      "archetype": "bonejamin"
+    },
+    {
+      "file": "illustrated/bonejamin-writing.svg",
+      "characterId": "bonejamin",
+      "reaction": "writing",
+      "archetype": "bonejamin"
+    },
+    {
+      "file": "illustrated/bonejamin-stamping.svg",
+      "characterId": "bonejamin",
+      "reaction": "stamping",
+      "archetype": "bonejamin"
+    },
+    {
+      "file": "illustrated/bonejamin-voting.svg",
+      "characterId": "bonejamin",
+      "reaction": "voting",
+      "archetype": "bonejamin"
+    },
+    {
+      "file": "illustrated/bonejamin-celebrate.svg",
+      "characterId": "bonejamin",
+      "reaction": "celebrate",
+      "archetype": "bonejamin"
+    },
+    {
+      "file": "illustrated/bonejamin-shocked.svg",
+      "characterId": "bonejamin",
+      "reaction": "shocked",
+      "archetype": "bonejamin"
+    },
+    {
+      "file": "illustrated/cerberus-idle.svg",
+      "characterId": "cerberus",
+      "reaction": "idle",
+      "archetype": "cerberus"
+    },
+    {
+      "file": "illustrated/cerberus-writing.svg",
+      "characterId": "cerberus",
+      "reaction": "writing",
+      "archetype": "cerberus"
+    },
+    {
+      "file": "illustrated/cerberus-stamping.svg",
+      "characterId": "cerberus",
+      "reaction": "stamping",
+      "archetype": "cerberus"
+    },
+    {
+      "file": "illustrated/cerberus-voting.svg",
+      "characterId": "cerberus",
+      "reaction": "voting",
+      "archetype": "cerberus"
+    },
+    {
+      "file": "illustrated/cerberus-celebrate.svg",
+      "characterId": "cerberus",
+      "reaction": "celebrate",
+      "archetype": "cerberus"
+    },
+    {
+      "file": "illustrated/cerberus-shocked.svg",
+      "characterId": "cerberus",
+      "reaction": "shocked",
+      "archetype": "cerberus"
+    },
+    {
+      "file": "illustrated/dolly-idle.svg",
+      "characterId": "dolly",
+      "reaction": "idle",
+      "archetype": "dolly"
+    },
+    {
+      "file": "illustrated/dolly-writing.svg",
+      "characterId": "dolly",
+      "reaction": "writing",
+      "archetype": "dolly"
+    },
+    {
+      "file": "illustrated/dolly-stamping.svg",
+      "characterId": "dolly",
+      "reaction": "stamping",
+      "archetype": "dolly"
+    },
+    {
+      "file": "illustrated/dolly-voting.svg",
+      "characterId": "dolly",
+      "reaction": "voting",
+      "archetype": "dolly"
+    },
+    {
+      "file": "illustrated/dolly-celebrate.svg",
+      "characterId": "dolly",
+      "reaction": "celebrate",
+      "archetype": "dolly"
+    },
+    {
+      "file": "illustrated/dolly-shocked.svg",
+      "characterId": "dolly",
+      "reaction": "shocked",
+      "archetype": "dolly"
+    },
+    {
+      "file": "illustrated/norm-idle.svg",
+      "characterId": "norm",
+      "reaction": "idle",
+      "archetype": "norm"
+    },
+    {
+      "file": "illustrated/norm-writing.svg",
+      "characterId": "norm",
+      "reaction": "writing",
+      "archetype": "norm"
+    },
+    {
+      "file": "illustrated/norm-stamping.svg",
+      "characterId": "norm",
+      "reaction": "stamping",
+      "archetype": "norm"
+    },
+    {
+      "file": "illustrated/norm-voting.svg",
+      "characterId": "norm",
+      "reaction": "voting",
+      "archetype": "norm"
+    },
+    {
+      "file": "illustrated/norm-celebrate.svg",
+      "characterId": "norm",
+      "reaction": "celebrate",
+      "archetype": "norm"
+    },
+    {
+      "file": "illustrated/norm-shocked.svg",
+      "characterId": "norm",
+      "reaction": "shocked",
+      "archetype": "norm"
+    },
+    {
+      "file": "illustrated/gus-idle.svg",
+      "characterId": "gus",
+      "reaction": "idle",
+      "archetype": "gus"
+    },
+    {
+      "file": "illustrated/gus-writing.svg",
+      "characterId": "gus",
+      "reaction": "writing",
+      "archetype": "gus"
+    },
+    {
+      "file": "illustrated/gus-stamping.svg",
+      "characterId": "gus",
+      "reaction": "stamping",
+      "archetype": "gus"
+    },
+    {
+      "file": "illustrated/gus-voting.svg",
+      "characterId": "gus",
+      "reaction": "voting",
+      "archetype": "gus"
+    },
+    {
+      "file": "illustrated/gus-celebrate.svg",
+      "characterId": "gus",
+      "reaction": "celebrate",
+      "archetype": "gus"
+    },
+    {
+      "file": "illustrated/gus-shocked.svg",
+      "characterId": "gus",
+      "reaction": "shocked",
+      "archetype": "gus"
+    },
+    {
+      "file": "illustrated/dot-idle.svg",
+      "characterId": "dot",
+      "reaction": "idle",
+      "archetype": "dot"
+    },
+    {
+      "file": "illustrated/dot-writing.svg",
+      "characterId": "dot",
+      "reaction": "writing",
+      "archetype": "dot"
+    },
+    {
+      "file": "illustrated/dot-stamping.svg",
+      "characterId": "dot",
+      "reaction": "stamping",
+      "archetype": "dot"
+    },
+    {
+      "file": "illustrated/dot-voting.svg",
+      "characterId": "dot",
+      "reaction": "voting",
+      "archetype": "dot"
+    },
+    {
+      "file": "illustrated/dot-celebrate.svg",
+      "characterId": "dot",
+      "reaction": "celebrate",
+      "archetype": "dot"
+    },
+    {
+      "file": "illustrated/dot-shocked.svg",
+      "characterId": "dot",
+      "reaction": "shocked",
+      "archetype": "dot"
+    },
+    {
+      "file": "illustrated/john-idle.svg",
+      "characterId": "john",
+      "reaction": "idle",
+      "archetype": "john"
+    },
+    {
+      "file": "illustrated/john-talking.svg",
+      "characterId": "john",
+      "reaction": "talking",
+      "archetype": "john"
+    },
+    {
+      "file": "illustrated/john-angry.svg",
+      "characterId": "john",
+      "reaction": "angry",
+      "archetype": "john"
+    },
+    {
+      "file": "illustrated/john-embarrassed.svg",
+      "characterId": "john",
+      "reaction": "embarrassed",
+      "archetype": "john"
+    },
+    {
+      "file": "illustrated/john-celebrate.svg",
+      "characterId": "john",
+      "reaction": "celebrate",
+      "archetype": "john"
+    },
+    {
+      "file": "illustrated/john-shocked.svg",
+      "characterId": "john",
+      "reaction": "shocked",
+      "archetype": "john"
+    },
+    {
+      "file": "illustrated/maya-idle.svg",
+      "characterId": "maya",
+      "reaction": "idle",
+      "archetype": "maya"
+    },
+    {
+      "file": "illustrated/maya-talking.svg",
+      "characterId": "maya",
+      "reaction": "talking",
+      "archetype": "maya"
+    },
+    {
+      "file": "illustrated/maya-angry.svg",
+      "characterId": "maya",
+      "reaction": "angry",
+      "archetype": "maya"
+    },
+    {
+      "file": "illustrated/maya-embarrassed.svg",
+      "characterId": "maya",
+      "reaction": "embarrassed",
+      "archetype": "maya"
+    },
+    {
+      "file": "illustrated/maya-celebrate.svg",
+      "characterId": "maya",
+      "reaction": "celebrate",
+      "archetype": "maya"
+    },
+    {
+      "file": "illustrated/maya-shocked.svg",
+      "characterId": "maya",
+      "reaction": "shocked",
+      "archetype": "maya"
+    },
+    {
+      "file": "illustrated/brad-idle.svg",
+      "characterId": "brad",
+      "reaction": "idle",
+      "archetype": "brad"
+    },
+    {
+      "file": "illustrated/brad-talking.svg",
+      "characterId": "brad",
+      "reaction": "talking",
+      "archetype": "brad"
+    },
+    {
+      "file": "illustrated/brad-angry.svg",
+      "characterId": "brad",
+      "reaction": "angry",
+      "archetype": "brad"
+    },
+    {
+      "file": "illustrated/brad-embarrassed.svg",
+      "characterId": "brad",
+      "reaction": "embarrassed",
+      "archetype": "brad"
+    },
+    {
+      "file": "illustrated/brad-celebrate.svg",
+      "characterId": "brad",
+      "reaction": "celebrate",
+      "archetype": "brad"
+    },
+    {
+      "file": "illustrated/brad-shocked.svg",
+      "characterId": "brad",
+      "reaction": "shocked",
+      "archetype": "brad"
+    }
+  ]
+}

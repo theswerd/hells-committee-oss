@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "hells-committee",
+  "pages_build_output_dir": "./dist/client",
+  "compatibility_date": "2026-04-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "committee-rooms",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "./drizzle"
+    }
+  ]
+}
