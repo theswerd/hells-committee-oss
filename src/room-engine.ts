@@ -116,6 +116,90 @@ const demoSentences: Record<SinnerId, string[]> = {
     'He spends eternity in a meeting whose agenda is planning the next meeting.',
     'Every “quick sync” becomes a three-hour debrief chaired by a sleepy gargoyle.',
   ],
+  felix: [
+    'Every movie ends one scene before the twist, and everyone tells him what happens.',
+    'His spoiler texts arrive after he has forgotten the plot but before the opening credits.',
+  ],
+  rita: [
+    'Her seat reclines only when the person behind her does, into a chain of infinite apology.',
+    'She gets the middle seat between two armrests that both belong to someone else.',
+  ],
+  kieran: [
+    'Every speaker he owns plays only the ads, at full volume, on a crowded train.',
+    'His videos buffer forever while everyone asks him to turn it up.',
+  ],
+  simone: [
+    'Every thank-you email spawns an all-staff reply asking her to confirm receipt.',
+    'Her inbox has one thread, and every demon replies all with “following.”',
+  ],
+  omar: [
+    'His dinner arrives one napkin at a time, each delivered by someone expecting a real tip.',
+    'Every discount code adds a mandatory gratuity to the driver he tried to shortchange.',
+  ],
+  chloe: [
+    'Her eternal subscription can only be canceled by calling herself during hold music.',
+    'Every exit button opens a survey that asks why she is abandoning the survey.',
+  ],
+  hugo: [
+    'Every parking spot has a cone, and every cone is being saved for a smaller cone.',
+    'His car is always perfectly parked two streets away from where he needs it.',
+  ],
+  bianca: [
+    'She gives a speech at every wedding, but the microphone only plays the couple’s vows.',
+    'Every cake slice is the flavor she requested, and nobody will let her take one home.',
+  ],
+  priya: [
+    'The thermostat follows her around, changing to whatever temperature she just complained about.',
+    'Her sweater closet is warm and her office is cold, but the remote is always in the other room.',
+  ],
+  marco: [
+    'The self-checkout asks him to explain every avocado to an increasingly skeptical banana.',
+    'Every coupon works, but only after he puts all the frozen food back where it belongs.',
+  ],
+  sloane: [
+    'She must dine at all six tables she booked, one course at a time, before dessert closes.',
+    'Every reservation confirms itself for the exact moment she finally sits down somewhere else.',
+  ],
+  nina: [
+    'Her recipe is at the top of the page, but she has to read the comments before cooking.',
+    'Every ingredient links to a twelve-chapter origin story written by the ingredient.',
+  ],
+  calvin: [
+    'Every one-star review gets a thoughtful owner reply that asks him to describe the weather.',
+    'His complaint form has five stars preselected and no comment box.',
+  ],
+  wren: [
+    'Every voice note she sends is transcribed as “inaudible chewing” except the first second.',
+    'Her friends reply with nine-minute recordings that begin “quick question.”',
+  ],
+  luca: [
+    'Every machine he claims turns into a towel rack until he finishes his actual set.',
+    'His gym mirror shows only the strangers he filmed without asking.',
+  ],
+  greta: [
+    'Her room key expires one minute before checkout, and the hallway is lined with tiny shampoos.',
+    'Every glitter fleck in the sheets needs its own checkout form.',
+  ],
+  malik: [
+    'The playlist accepts his songs, then skips them after ten seconds with a polite ding.',
+    'His aux cord reaches every speaker but only plays everyone else’s requests.',
+  ],
+  june: [
+    'Every book she borrows opens to a page with her own ending spoiled in the margin.',
+    'Her library card works only after she flattens every dog-ear she ever made.',
+  ],
+  eddie: [
+    'The Wi-Fi password changes every time he says it aloud, and the router refuses hints.',
+    'His devices connect only after he answers all the messages asking for access.',
+  ],
+  vera: [
+    'Every abandoned cart follows her home, squeaking one wheel louder than the last.',
+    'Her ice cream melts until she returns each misplaced item to the right aisle.',
+  ],
+  arlo: [
+    'His microphone stays on for lunch but mutes itself whenever he has the answer.',
+    'His screen share displays only a giant “can you see it?” button that no one can click.',
+  ],
 }
 export function tickMeeting(meeting: Meeting, now: number) {
   // Rooms saved on the retired reveal screen enter the writing round on their next poll.

@@ -58,7 +58,8 @@ export function PhoneClockIn({ connection, requestedCode, onJoined }: { connecti
   </div></LivePhoneFrame>
 }
 function SinnerSprite({ sinner, pose = 'idle', name }: { sinner: SinnerId; pose?: string; name: string }) {
-  return <Sprite id={sinner} pose={pose} format={sinner === 'david' ? 'png' : 'svg'} className={sinner === 'david' ? 'david-sprite' : ''} name={name} />
+  const format = SINNERS[sinner].spriteFormat ?? 'webp'
+  return <Sprite id={sinner} pose={pose} format={format} className={sinner === 'david' ? 'david-sprite' : ''} name={name} />
 }
 function LiveMiniFile({ sinner, round }: { sinner: SinnerId; round: number }) {
   const subject = SINNERS[sinner]

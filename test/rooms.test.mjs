@@ -10,12 +10,15 @@ const demons = ['greg','gus','norm','dot','beelzebabs','mothmanager','bonejamin'
 const ticket = () => Array.from(crypto.getRandomValues(new Uint8Array(32)), value => value.toString(16).padStart(2,'0')).join('')
 test('every case has three charges and both portrait poses; rematches refresh the full backlog', () => {
   const ids = Object.keys(SINNERS)
-  assert.equal(ids.length, 9)
+  assert.equal(ids.length, 30)
   for (const [id, sinner] of Object.entries(SINNERS)) {
     assert.equal(sinner.sins.split('\n').length, 3, `${id} needs three charges`)
     for (const pose of ['idle', 'shocked']) {
-      if (id === 'david') assert.ok(readFileSync(`public/art/${id}-${pose}.png`).length > 100_000)
-      else assert.ok(readFileSync(`public/art/${id}-${pose}.svg`, 'utf8').includes(`data-character="${id}"`))
+      const format = sinner.spriteFormat ?? 'webp'
+      const image = readFileSync(`public/art/${id}-${pose}.${format}`)
+      if (format === 'svg') assert.ok(image.toString().includes(`data-character="${id}"`))
+      else if (format === 'webp') assert.equal(image.subarray(8, 12).toString(), 'WEBP')
+      else assert.ok(image.length > 100_000)
     }
   }
   const meeting = newMeeting('HELL', 'host', 'committee', 1000)
