@@ -15,7 +15,7 @@ A live party game for 3–8 players. One person hosts on a TV, and everyone else
 
 The chair opens each case. Players have 90 seconds to write a 3–140 character punishment. Voting also has a 90-second clock. If everybody finishes early, the phase closes automatically. The chair can add time, advance to the next case, and start a rematch after the final scoreboard.
 
-The new sinner portraits are generated from the repository’s illustrated sprite library. Run `npm run sprites:sinners` to rebuild their idle and shocked WebP poses from [`sprites/generate-game-sinners.mjs`](sprites/generate-game-sinners.mjs).
+The 21 new sinners each have an original character design and matching idle and shocked illustrations. [Preview the cast](sprites/art-sources/new-sinners/roster-preview.webp) or browse their paired source sheets in [`sprites/art-sources/new-sinners/`](sprites/art-sources/new-sinners/). Run `npm run sprites:sinners` to rebuild the game-ready WebP sprites.
 
 The host can loop optional background music after the chair starts the game, with a music control in the footer. The final scoreboard can play an optional winner video. Add your own media in [`public/media/`](public/media/README.md); recordings are not included in the source repository.
 
